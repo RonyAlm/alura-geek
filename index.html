@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    
+    <header class="header">
+        <span class="header__logo">
+            <i class="fas fa-laptop"></i>
+            Alura Geek</span>
+    </header>
+    <main class="main">
+        <header class="main__header">
+            <h1 class="main__title">¡Bienvenido a Alura Geek!</h1>
+            <p class="main__description">La mejor tienda de tecnología en línea</p>
+        </header>
+        <section class="products">
+            <h2 class="products__title">Mis productos</h2>
+            <div class="products__cards">
+                <article class="product">
+                    <picture class="product__img">
+                        <img src="https://www.geekno.com/wp-content/uploads/2018/08/mandos-de-nintendo-switch.jpg" alt="Producto 1">
+                    </picture>
+                    <p class="product__name">Producto 1</p>
+                    <p class="product__price">$20000</p>
+                    <div class="product__buttons">
+                        <button class="btn btn__delete" data-delete>
+                            <i class="far fa-trash-alt"></i>
+                            Eliminar
+                        </button>
+                    </div>
+                </article>
+                <article class="product">
+                    <picture class="product__img">
+                        <img src="https://assets.entrepreneur.com/images/misc/1649097851_ent22_aprilmay_WhatsNext_OrbiTriBand.jpg" alt="Producto 2">
+                    </picture>
+                    <p class="product__name">Producto 2</p>
+                    <p class="product__price">Precio</p>
+                </article>
+                <article class="product">
+                    <picture class="product__img">
+                        <img src="https://via.placeholder.com/200x200" alt="Producto 3">
+                    </picture>
+                    <p class="product__name">Producto 3</p>
+                    <p class="product__price">Precio</p>
+                </article>
+                <article class="product">
+                    <picture class="product__img">
+                        <img src="https://via.placeholder.com/200x200" alt="Producto 4">
+                    </picture>
+                    <p class="product__name">Producto 4</p>
+                    <p class="product__price">Precio</p>
+                </article>
+            </div>
+        </section>
+        <section class="form__product">
+            <h2 class="form__title">Agregar producto</h2>
+            <form class="form" data-form>
+                <input class="form__input" type="text" placeholder="Nombre del producto" required>
+                <input class="form__input" type="number" placeholder="Precio del producto" required>
+                <input class="form__input" type="text" placeholder="URL de la imagen" required> 
+                <div class="form__buttons">
+                    <button class="btn btn__add" type="submit">
+                        <i class="fas fa-plus"></i>
+                        Agregar
+                    </button>
+                    <button class="btn btn__reset" type="reset">
+                        <i class="fas fa-broom"></i>
+                        Limpiar
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
 </body>
+
 </html>
