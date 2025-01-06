@@ -11,6 +11,12 @@
       "image": "https://www.geekno.com/wp-content/uploads/2018/08/mandos-de-nintendo-switch.jpg",
       "name": "Mando Nintendo Switch",
       "price": 20040
+    },
+    {
+      "id": "bfeb",
+      "name": "Notebook Noblex",
+      "price": "32323",
+      "image": "https://tiendadiggit.com.ar/web/image/product.template/248788/image_1024?unique=b936b9f"
     }
   ]
 }
