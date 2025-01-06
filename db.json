@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "https://assets.entrepreneur.com/images/misc/1649097851_ent22_aprilmay_WhatsNext_OrbiTriBand.jpg",
+      "name": "Router Wifi",
+      "price": 44000
+    },
+    {
+      "id": "2",
+      "image": "https://www.geekno.com/wp-content/uploads/2018/08/mandos-de-nintendo-switch.jpg",
+      "name": "Mando Nintendo Switch",
+      "price": 20040
+    }
+  ]
+}
